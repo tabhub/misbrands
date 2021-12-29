@@ -16,6 +16,8 @@ jobs:
     - run: rm -rf images/.git
     - name: TabHub Card Action
       uses: tabhub/tabhub-card-action@master
+      with:
+        background: '#EEE'
     - name: Git commit
       run: |
         # git commit if there's any change
